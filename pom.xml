@@ -75,7 +75,7 @@
                                 <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/dash.js-${upstream.version}" includes="contrib/videojs"/>
+                                    <fileset dir="${project.build.directory}/dash.js-${upstream.version}" includes="contrib/videojs/"/>
                                 </move>
                             </target>
                         </configuration>
